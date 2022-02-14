@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero-gradient {
+    background: radial-gradient(106.87% 233.62% at 8.5% 14.62%, #000000 8.25%, rgba(68, 68, 68, 0) 75.25%);
+  }
+}
+
+p {
+  @apply font-light text-sm;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
